@@ -1,0 +1,119 @@
+*{margin: 0px;}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #114b79;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #b24b11, #114b79);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #b24b11, #114b79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.login-section{
+	margin: 0px auto;
+	width: 75%;
+}
+.login-section h1{
+	text-align: center;
+	margin: 30px 0px;
+	color: #fff;
+}
+.sign-in{
+	width: 35%;
+	background: rgba(0, 0, 0, 0.15);
+	float: left;
+	padding: 0px 50px;  
+	margin:0px 14px; 
+}
+.sign-in h2{
+	text-align:center;
+	padding: 40px 0px 20px 0px;
+	color:#fff;
+}
+.sign-up{
+	width: 35%;
+	background: rgba(0, 0, 0, 0.15);
+	float: left;
+	padding: 0px 50px; 
+	margin:0px 14px; 
+}
+.sign-up h2{
+	text-align: center;
+	padding: 40px 0px 20px 0px;
+	color:#fff;
+}
+.form-control{
+	width: 97%;
+	height: 22px;
+	padding: 2px 0px 2px 10px;
+	border-radius: 4px;
+	margin-bottom: 22px;
+	border: 1px solid #fff;
+	background: rgba(0, 0, 0, 0.15);
+	color:#fff !important;
+	background-repeat: no-repeat; 
+	background-position: 277px 5px;
+}
+::placeholder {
+	color: #fff;
+	font-weight: 100;
+	opacity: 1; /* Firefox */
+}
+.login-btn{
+	padding: 5px 0px;
+	color: #fff;
+	font-size: 15px;
+	transition: 0.4s;
+	border-radius: 2px;
+	width: 45%;
+}
+.signin-login-btn1{
+	background: #4d9a3a;
+	margin: 8px 12px 53px 0px;
+	font-size: 14px;
+	border:1px solid #4d9a3a;
+}
+.signin-login-btn2{
+	background: #c1392b;
+	margin: 8px 0px 53px 13px;
+	font-size: 14px;
+	border:1px solid #c1392b;
+}
+.signup-login-btn{
+	background: #4d9a3a;
+	width: 100%;
+	margin-bottom:53px;
+	font-size: 14px;
+	border:1px solid #4d9a3a;
+}
+.signin-login-btn1:hover{
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid #4d9a3a;
+}
+.signin-login-btn2:hover{
+	cursor: pointer;
+	background: rgba(0, 0, 0, 0.2);
+	border: 1px solid #c1392b;	
+}
+.signup-login-btn:hover{
+	cursor: pointer;
+	background-color:#418131;
+}
+.login-section p{
+	margin: 473px 193px;
+	color: #fff;
+	font-size: 14px;
+}
+.icon{
+	background-image:url(../img/user-silhouette.png); 
+}
+.icon2{
+	background-image:url(../img/locked-padlock.png);
+}
+.icon3{
+	background-image:url(../img/old-typical-phone.png);
+}
+.icon4{
+	background-image:url(../img/opened-email-envelope.png);
+}
